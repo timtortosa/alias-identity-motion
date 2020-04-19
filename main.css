@@ -1,0 +1,153 @@
+body{
+  padding: 2%;
+}
+
+h3{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 60px;
+  margin-bottom:20px;
+  display: flex;
+}
+
+h1{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+h4{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+.img1{
+  width: 100%;
+  margin-top:1vh;;
+  display: flex;
+}
+
+.text1{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 30px;
+  -webkit-columns: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+.text1 p {
+  margin-block-end: 1.5em;
+}
+
+.text1 h4 {
+  break-after: column;
+  -webkit-column-break-after : always;
+}
+
+#colonnage1{
+  display: grid;
+  grid-template-columns: repeat(2, 49.5%);
+  grid-gap: 1%;
+  padding-top: 4em;
+  padding-bottom: 3em;
+}
+
+#colonnage1 #sigle{
+  width: 100%;
+  height: auto;
+}
+
+#colonnage1 #insta{
+  width: 100%;
+  height: auto;
+}
+
+.text2{
+  display: grid;
+  grid-template-columns: repeat(3, 32.3%);
+  grid-gap: 1%;
+  padding-top: 2em;
+
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+#colonnage2 #start{
+  padding-top: 1.5em;
+}
+
+.text2 p {
+  margin-block-end: 1.5em;
+}
+
+.text2 #logo{
+  width: 207%;
+  height: auto;
+}
+
+.text3{
+  display: grid;
+  grid-template-columns: repeat(4, 24.3%);
+  grid-gap: 1%;
+  padding-top: 0em;
+  padding-bottom: 1em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.text3 img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 0.3em;
+}
+
+.text4{
+  display: grid;
+  grid-template-columns: repeat(3, 32.3%);
+  grid-gap: 1%;
+  padding-bottom: 2em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.text4 img{
+  width: 200%;
+  height: auto;
+  padding-bottom: 0.3em;
+}
+
+.text5{
+  display: grid;
+  grid-template-columns: repeat(3, 32.3%);
+  grid-gap: 1%;
+  padding-top: 0em;
+
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+#colonnage3 #start{
+  padding-top: 1.5em;
+}
+
+.text5 p {
+  margin-block-end: 1.5em;
+}
+
+.text5 video{
+  width: 207%;
+  height: auto;
+}
